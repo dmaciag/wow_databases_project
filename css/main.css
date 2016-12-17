@@ -1,0 +1,173 @@
+body{
+    background: black;
+    color: lightgreen;
+}
+
+#searchInput{
+    background: black;
+    border: none;
+}
+
+.nav{
+    position: relative;
+}
+
+#searchlimit{
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.searchlimit{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    display: inline-block;
+    position: relative;
+}
+
+/* Search BEGIN */
+
+#search{
+    float: right;
+    position: relative;
+}
+
+#home:hover, #classes:hover, #races:hover, #characters:hover{
+    color: red;
+}
+
+#searchTitle{
+    color:lightblue;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.class, .race{
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Search END */
+
+/* Characer Details Block BEGIN */ 
+
+#characterPane{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+#mainHand, #offHand{
+    display: inline-block;
+}
+
+.left {
+    display: inline-block;
+    width:33%;
+}
+
+.center-bottom {
+    display: inline-block;
+    width:33%;
+}
+
+.right {
+    float: right;
+    display: inline-block;
+    width:33%;
+}
+
+.margin-auto{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.border-gear-item{
+    border: solid 3px;
+}
+
+/* Characer Details Block END */ 
+
+/* Focused Gear Item  BEGIN */
+
+.class-border-artifact{
+    border-color: #e5cc80 !important;
+}
+
+.class-border-legendary{
+    border-color: #ff8000 !important;
+}
+
+.class-border-epic{
+    border-color: #a335ee !important;
+}
+
+.class-border-rare{
+    border-color: #0070dd !important;
+}
+
+.class-border-uncommon{
+    border-color: #1eff00 !important;
+}
+
+.class-border-white{
+    border-color: #ffffff !important;
+}
+
+.class-border-grey{
+    border-color: #9d9d9d !important;
+}
+
+.class-artifact{
+    color: #e5cc80;
+}
+
+.class-legendary{
+    color: #ff8000;
+}
+
+.class-epic{
+    color: #a335ee;
+}
+
+.class-rare{
+    color: #0070dd;
+}
+
+.class-uncommon{
+    color: #1eff00;
+}
+
+.class-white{
+    color: #ffffff;
+}
+
+.class-grey{
+    color: #9d9d9d;
+}
+
+.focused-item-container{
+    max-width: 255px;
+    background: rgba(255,255,255,.05);
+    border-radius: 3%;
+    border: solid 3px;
+    padding: 5px;
+}
+
+.focused-item-description{
+    word-break: break-word;
+}
+
+.focused-item-lvl{
+    color: #ffd100;
+}
+
+ /* Focused Gear Item  END */
